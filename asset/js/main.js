@@ -46,14 +46,12 @@ $(document).ready(function(){
 		$('.search .searchbar span').text($(this).text());
 		if($(this).is('.on')) $('.search .searchbar span').text($(this).text());
 		else $('.search .searchbar span').empty();
-
-
 		console.log(tghref);
 		
 		var $gobtn = $('.search .searchbar a');
 		$gobtn.on('click',function (e){
 			e.preventDefault();
-			location.href = '/br31/menu' + tgHref;
+			location.href = '/br31./menu' + tgHref;
 		});
 	});
 	
