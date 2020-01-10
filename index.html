@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title> 배스킨라빈스 31 </title>
+    <link rel="stylesheet" href="asset/css/swiper.css">
+    <link rel="stylesheet" href="asset/css/common.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="icon" href="asset/images/favicon.ico">
+    <script src="asset/js/jquery-1.12.4.min.js"></script>
+    <script src="asset/js/swiper.min.js"></script>
+    <script src="asset/js/fade.js"></script>
+    <script src="asset/js/common.js"></script>
+    <script src="asset/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            var mySwiper = new Swiper('.swiper-container', {
+                // Optional parameters
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            })
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="asset/images/common/br_logo.svg" alt="">
+                </a>
+            </h1>
+            <button class="btn_menu">
+                <span class="sr-only">메뉴 열기</span>
+                <span class="line top"></span>
+                <span class="line mid"></span>
+                <span class="line btm"></span>
+            </button>
+            <nav id="gnb">
+
+                <h2 class="sr-only">주메뉴</h2>
+                <h1 class="logo">
+                    <img src="asset/images/common/br_logo_white.gif" alt="">
+                </h1>
+                <div class="signbox">
+                    <ul class="sign">
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">회원가입</a></li>
+                    </ul>
+                </div>
+                <ul class="gnb-txt">
+                    <li>
+                        <a href="">FLAVOT OF THE MONTH</a>
+                    </li>
+                    <li>
+                        <a href="">EVENT</a>
+                        <ul>
+                            <li><a href="">진행중인event</a></li>
+                            <li><a href="">당첨자발표</a></li>
+                        </ul>
+                    </li>
+                    <li>
+
+                        <a href="">MENU</a>
+                        <ul>
+                            <li><a href="menu/m_ice.html">아이스크림</a></li>
+                            <li><a href="">케이크</a></li>
+                            <li><a href="">음료</a></li>
+                            <li><a href="">디저트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+
+                        <a href="">STORE</a>
+                        <ul>
+                            <li><a href="">매장찾기</a></li>
+                            <li><a href="">고객센터</a></li>
+                        </ul>
+                    </li>
+                    <li>
+
+                        <a href="">ABOUT</a>
+                        <ul>
+                            <li><a href="">공지사항</a></li>
+                            <li>
+                                <a href="">회사소개</a>
+                                <ul>
+                                    <li><a href="">회사소개</a></li>
+                                    <li><a href="">회사연혁</a></li>
+                                    <li><a href="about/a_history.html">our story</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">채용정보</a></li>
+                            <li><a href="">점포개설문의</a></li>
+                            <li>
+                                <a href="">CONTECT US</a>
+                                <ul>
+                                    <li><a href="">고객센터</a></li>
+                                    <li><a href="">자주묻는질문</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <section id="article">
+            <h2 class="sr-only">메인 본문</h2>
+            <article class="slider" title="test">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="asset/images/main/slider_01_1x.jpg" alt=""
+                                srcset="asset/images/main/slider_01_2x.jpg 2x , asset/images/main/slider_01_3x.jpg 3x">
+                        </div>
+                        <div class="swiper-slide"><img src="asset/images/main/slider_01_1x.jpg" alt=""
+                                srcset="asset/images/main/slider_01_2x.jpg 2x , asset/images/main/slider_01_3x.jpg 3x">
+                        </div>
+                        <div class="swiper-slide"><img src="asset/images/main/slider_01_1x.jpg" alt=""
+                                srcset="asset/images/main/slider_01_2x.jpg 2x , asset/images/main/slider_01_3x.jpg 3x">
+                        </div>
+                        <div class="swiper-slide"><img src="asset/images/main/slider_01_1x.jpg" alt=""
+                                srcset="asset/images/main/slider_01_2x.jpg 2x , asset/images/main/slider_01_3x.jpg 3x">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"> </div>
+                </div>
+            </article>
+            <article class="search">
+                <h3>
+                    <div>
+                        <span class="seh_1">생각나는</span>
+                        <span class="seh_2">아이스크림</span>
+                    </div>
+                    <span class="seh_3">PICK</span>
+                </h3>
+                <p>지금바로 <span>생각</span>나는 , <span>먹고</span>싶은 <br><span>아이스크림 태그</span>를 눌러주세요!</p>
+                <div class="searchbar">
+                    <span></span>
+                    <a href=""><img src="asset/images/main/search_icon.gif" alt=""></a>
+                </div>
+                <div class="searchtag">
+                    <ul>
+                        <li><button type="button" data-href="m_ice.html">#달콤한</button></li>
+                        <li><button type="button" data-href="m_ice02.html">#담백한</button></li>
+                        <li><button type="button" data-href="m_ice03.html">#상큼한</button></li>
+                        <li><button type="button" data-href="m_ice04.html">#쌉싸름한 </button></li>
+                        <li><button type="button" data-href="m_ice05.html">#풍부한</button></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="delivery clearfix">
+                <h3>DELIVERY</h3>
+                <strong>내손안의 배스킨라빈스!</strong>
+                <p> 이제 모바일에서 빠르고 간편하게 주문해보세요!</p>
+                <ul>
+                    <li><a href=""><img src="asset/images/main/devl_01_1x.jpg" alt=""
+                                srcset="asset/images/main/devl_01_2x.jpg 2x, asset/images/main/devl_01_3x.jpg 3x"></a>
+                    </li>
+                    <li><a href=""><img src="asset/images/main/devl_02_1x.jpg" alt=""
+                                srcset="asset/images/main/devl_02_2x.jpg 2x,asset/images/main/devl_02_3x.jpg 3x"></a>
+                    </li>
+                    <li><a href=""><img src="asset/images/main/devl_03_1x.jpg" alt=""
+                                srcset="asset/images/main/devl_03_2x.jpg 2x ,asset/images/main/devl_03_3x.jpg 3x"></a>
+                    </li>
+                    <li><a href=""><img src="asset/images/main/devl_04_1x.jpg" alt=""
+                                srcset="asset/images/main/devl_04_2x.jpg 2x, asset/images/main/devl_04_3x.jpg 3x"></a>
+                    </li>
+                </ul>
+            </article>
+            <article class="map">
+                <h3>
+                    <img src="asset/images/main/map_txt.png" alt="">
+                </h3>
+                <a href=""><span>배스킨라빈스</span> 찾으러가기</a>
+            </article>
+        </section>
+        <footer id="footer">
+            <a href=""><img src="asset/images/common/footer_logo.png" alt=""></a>
+            <div class="ft_left">
+                <ul>
+                    <li><a href="">채용문의 |</a></li>
+                    <li><a href="">이용약관 |</a></li>
+                    <li><a href="">윤리신고센터 |</a></li>
+                    <li><a href="">개인정보처리방침 |</a></li>
+                    <li><a href="">영상정보처리기기운영관리방침 |</a></li>
+                    <li><a href="">거래희망회사사전등록</a></li>
+                </ul>
+                <address>
+                    사업자 등록번호 : 303 - 81 - 0935 |
+                    서울특별시 서초구 남부순환로 2620<br>
+                    | 비알코리아 (주) 대표이사 김창대 |
+                    개인정보관리 책임자 : 이중희
+                </address>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
