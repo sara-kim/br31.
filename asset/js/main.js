@@ -51,7 +51,7 @@ $(document).ready(function(){
 		var $gobtn = $('.search .searchbar a');
 		$gobtn.on('click',function (e){
 			e.preventDefault();
-			location.href = '/br31./menu' + tgHref;
+			location.href = '/br31./menu/' + tgHref;
 		});
 	});
 	
