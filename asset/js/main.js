@@ -48,7 +48,7 @@ $(document).ready(function(){
 		var $gobtn = $('.search .searchbar a');
 		$gobtn.on('click',function (e){
 			e.preventDefault();
-			location.href = 'menu/'+tgHref;
+			location.href = '/menu/'+tgHref;
 		});
 	});
 	
