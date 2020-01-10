@@ -49,10 +49,9 @@ $(document).ready(function(){
 		var $gobtn = $('.search .searchbar a');
 		$gobtn.on('click',function (e){
 			e.preventDefault();
-			location.href = 'br31./menu/'+tghref;
+			location.href = 'menu/'+tghref;
 		});
 	});
-	
 	//a_history
 	var $scBtn = $('#article1 .timeline_box button');
 	$scBtn.on("click", function(e){
