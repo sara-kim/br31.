@@ -49,7 +49,7 @@ $(document).ready(function(){
 		var $gobtn = $('.search .searchbar a');
 		$gobtn.on('click',function (e){
 			e.preventDefault();
-			location.href = '/br31./menu/'+tghref;
+			location.href = 'https://sara-kim.github.io/br31./menu/'+tghref;
 		});
 	});
 	//a_history
