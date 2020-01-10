@@ -40,7 +40,8 @@ $(document).ready(function(){
 		}); */
 		var tghref = $(this).attr('data-href');
 		$(this).toggleClass('on');
-		$('.search .searchbar span').text($(this).text());
+		if($(this).is('.on')) $(this).siblings().removeClass('on');
+		
 		if($(this).is('.on')) $('.search .searchbar span').text($(this).text());
 		else $('.search .searchbar span').empty();
 		console.log(tghref);
@@ -48,7 +49,7 @@ $(document).ready(function(){
 		var $gobtn = $('.search .searchbar a');
 		$gobtn.on('click',function (e){
 			e.preventDefault();
-			location.href = '/menu/'+tgHref;
+			location.href = '/menu/'+tghref;
 		});
 	});
 	
